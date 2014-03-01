@@ -32,6 +32,16 @@ $msjCorreo = "Nombre: $nombre\n E-Mail: $email\n Mensaje:\n $mensaje";
 		<div id="cabecera">
 			<img src="image/logoInterno.jpg" width="171" height="17">
 		</div>
+		
+		<div class="mobile">
+			<div id="titulo-mobile">
+				<div class="titulo">CONTACTO</div>
+				<div class="close">
+					<a href="home.html">X</a>
+				</div>
+			</div>
+		</div>
+		
 		<div id="menu">
 			<ul>
 				<li><a href="home.html">HOME</a></li>
