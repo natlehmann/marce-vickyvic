@@ -1,0 +1,19 @@
+#pie {
+	display: none;
+}
+
+#content {
+	width: 100%;
+	height: auto;
+}
+
+#contentIndex {
+	width: 100%;
+	height: auto;
+	margin-top: 50%;
+}
+
+#contentIndex a img {
+	width: 60%;
+	height: auto;
+}
