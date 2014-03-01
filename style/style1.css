@@ -1,204 +1,209 @@
 @charset "utf-8";
-@CHARSET "ISO-8859-1";
 
+@CHARSET "ISO-8859-1";
 
 /*font especial*/
 @font-face {
-    font-family: 'caviar_dreamsregular';
-    src: url('../fonts/CaviarDreams-webfont.eot');
-    src: url('../fonts/CaviarDreams-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/CaviarDreams-webfont.woff') format('woff'),
-         url('../fonts/CaviarDreams-webfont.ttf') format('truetype'),
-         url('../fonts/CaviarDreams-webfont.svg#caviar_dreamsregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+	font-family: 'caviar_dreamsregular';
+	src: url('../fonts/CaviarDreams-webfont.eot');
+	src: url('../fonts/CaviarDreams-webfont.eot?#iefix')
+		format('embedded-opentype'), url('../fonts/CaviarDreams-webfont.woff')
+		format('woff'), url('../fonts/CaviarDreams-webfont.ttf')
+		format('truetype'),
+		url('../fonts/CaviarDreams-webfont.svg#caviar_dreamsregular')
+		format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: 'caviar_dreamsbold';
-    src: url('../fonts/Caviar_Dreams_Bold-webfont.eot');
-    src: url('../fonts/Caviar_Dreams_Bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Caviar_Dreams_Bold-webfont.woff') format('woff'),
-         url('../fonts/Caviar_Dreams_Bold-webfont.ttf') format('truetype'),
-         url('../fonts/Caviar_Dreams_Bold-webfont.svg#caviar_dreamsbold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+	font-family: 'caviar_dreamsbold';
+	src: url('../fonts/Caviar_Dreams_Bold-webfont.eot');
+	src: url('../fonts/Caviar_Dreams_Bold-webfont.eot?#iefix')
+		format('embedded-opentype'),
+		url('../fonts/Caviar_Dreams_Bold-webfont.woff') format('woff'),
+		url('../fonts/Caviar_Dreams_Bold-webfont.ttf') format('truetype'),
+		url('../fonts/Caviar_Dreams_Bold-webfont.svg#caviar_dreamsbold')
+		format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
-
 
 /*------------general-----*/
 body {
-margin:0;
-padding:0;
-text-align:center;
-background-color:#000;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background-color: #000;
 }
 
 #content {
-background-color: #000000;
-margin: 10% auto auto;
-text-align: left;
-width: 1025px;
-font-family:caviar_dreamsregular,"Trebuchet MS", Arial, Helvetica, sans-serif;
-    font-size: 14px;
+	background-color: #000000;
+	margin: 10% auto auto;
+	text-align: left;
+	width: 1025px;
+	font-family: caviar_dreamsregular, "Trebuchet MS", Arial, Helvetica,
+		sans-serif;
+	font-size: 14px;
 }
-   
+
 #contentIndex {
-background-color: #000000;
-margin: 25% auto auto;
-text-align: center;
-width: 1025px;
-font-family:caviar_dreamsregular,"Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-color: #000000;
+	margin: 25% auto auto;
+	text-align: center;
+	width: 1025px;
+	font-family: caviar_dreamsregular, "Trebuchet MS", Arial, Helvetica,
+		sans-serif;
 }
-   
+
 #index {
-text-align:center;
-height:400px;
+	text-align: center;
+	height: 400px;
 }
 
 #cabecera {
-    background-color: #000000;
-    float: left;
-    height: 40px;
-    width: 500px;
+	background-color: #000000;
+	float: left;
+	height: 40px;
+	width: 500px;
 }
 
 #menu {
-    color: #999999;
-    float: left;
-    font-size: 1.2em;
-    height: 40px;
-    margin-top: -16px;
-    position: relative;
-    right: -63px;
+	color: #999999;
+	float: left;
+	font-size: 1.2em;
+	height: 40px;
+	margin-top: -16px;
+	position: relative;
+	right: -63px;
 }
 
-#menu ul{
-list-style-type:none;
+#menu ul {
+	list-style-type: none;
 }
 
-#menu li{
-/*margin-left: -40px;
+#menu li {
+	/*margin-left: -40px;
 padding-top: 10px;*/
-display:inline;
-}
-   
-#menu a{
-text-decoration: none;
-color: #999999;
-}
-	
-#menu a:hover {         
-text-decoration: none;
-color: #ffffff; 
+	display: inline;
 }
 
-#shop a{
-text-decoration: none;
-color: #d3b85f;
+#menu a {
+	text-decoration: none;
+	color: #999999;
 }
-	
-#shop a:hover {         
-text-decoration: none;
-color: #ffffff; 
+
+#menu a:hover {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+#shop a {
+	text-decoration: none;
+	color: #d3b85f;
+}
+
+#shop a:hover {
+	text-decoration: none;
+	color: #ffffff;
 }
 
 #redesSociales {
-float: right;
-text-align: right;
-}
-   
-#redesSociales ul{
-/*padding-top: 40px;*/
+	float: right;
+	text-align: right;
 }
 
-#redesSociales li{
-display: inline;
-margin-left: 0;
+#redesSociales ul {
+	/*padding-top: 40px;*/
+	
+}
+
+#redesSociales li {
+	display: inline;
+	margin-left: 0;
 }
 
 #contenido {
-width:1025px;
-height:360px;
-padding-top: 40px;
+	width: 1025px;
+	height: 360px;
+	padding-top: 40px;
 }
-   
+
 #textoInterno {
-background-color: #FFFFFF;
-float: right;
-height: 354px;
-margin-top: -357px;
-position:absolute;
-width: 600px;
-    margin-left: 425px;
+	background-color: #FFFFFF;
+	float: right;
+	height: 354px;
+	margin-top: -357px;
+	position: absolute;
+	width: 600px;
+	margin-left: 425px;
 }
 
 #textoInterno1 {
-    background-color: #FFFFFF;
-    float: right;
-    height: 80px;
-    margin-top: -110px;
-	position:absolute;
-    width: 1025px;
+	background-color: #FFFFFF;
+	float: right;
+	height: 80px;
+	margin-top: -110px;
+	position: absolute;
+	width: 1025px;
 	text-align: center;
+	z-index: 999;
 }
 
-#textoInterno1 img{
-    padding-right: 13px;
-    padding-top: 15px;
+#textoInterno1 img {
+	padding-right: 13px;
+	padding-top: 15px;
 }
 
-.textoNosotros{
-	    padding: 50px;
+.textoNosotros {
+	padding: 50px;
 }
 
 #pie {
-/*clear:both;
+	/*clear:both;
 width:1025px;
 height:50px;
 background-color:#000000;
 color:#FFF;
 text-align:center;*/
-    background-color: #000000;
-    bottom: 0;
-    clear: both;
-    color: #999999;
-    height: 50px;
-    position: fixed;
-    text-align: center;
-    width: 1025px;
+	background-color: #000000;
+	bottom: 0;
+	clear: both;
+	color: #999999;
+	height: 50px;
+	position: fixed;
+	text-align: center;
+	width: 1025px;
 }
 
-#pie a{
-text-decoration: none;
-color: #999999;
+#pie a {
+	text-decoration: none;
+	color: #999999;
 }
 
-#pie a:hover {         
-text-decoration: none;
-color: #d3b85f; 
+#pie a:hover {
+	text-decoration: none;
+	color: #d3b85f;
 }
 
 #pieInterna {
-    clear: both;
-    color: #999999;
-    float: left;
-    font-size: 0.9em;
-    line-height: 18px;
-    margin-top: -30px;
-    text-align: left;
+	clear: both;
+	color: #999999;
+	float: left;
+	font-size: 0.9em;
+	line-height: 18px;
+	margin-top: -30px;
+	text-align: left;
 }
 
-#pieInterna a{
-text-decoration: none;
-color: #999999;
+#pieInterna a {
+	text-decoration: none;
+	color: #999999;
 }
 
-#pieInterna a:hover {         
-text-decoration: none;
-color: #d3b85f; 
+#pieInterna a:hover {
+	text-decoration: none;
+	color: #d3b85f;
 }
 
 /*--------------------------------formulario------------------------
@@ -248,92 +253,96 @@ textarea {
 }
 
 /*--------------------------------------galeria--------------------------------------*/
-
 .scroll {
-    height: 354px;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    position: relative;
-    width: 1025px;
+	height: 354px;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	position: relative;
+	width: 1025px;
 }
 
-.galeria{
-    /*float: left;
+.galeria {
+	/*float: left;
     overflow: auto;
     position: relative;
 	height: 395px;*/
-     width: 6202px;
+	width: 6202px;
 }
 
-
-.galeria img{
-    float: left;
-    margin-bottom: 15px;
-    margin-right: 5px;
+.galeria img {
+	float: left;
+	margin-bottom: 15px;
+	margin-right: 5px;
 }
 
-@-moz-document url-prefix() {
-  .scroll {
-    height: 354px;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    position: relative;
-	width:1025px;
-  }
+@
+-moz-document url-prefix () { .scroll { height:354px;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	position: relative;
+	width: 1025px;
 }
 
+}
 #slideShowImages { /* The following CSS rules are optional. */
-    }   
-  
-    #slideShowImages img { /* The following CSS rules are optional. */
-
-    }   
 	
-	
-	
-	label {
-    display:block;
-    margin-top:10px;
-    letter-spacing:1px;
 }
+
+#slideShowImages img { /* The following CSS rules are optional. */
+	
+}
+
+label {
+	display: block;
+	margin-top: 10px;
+	letter-spacing: 1px;
+}
+
 .formulario {
-    display:block;
-    margin:0 auto;
-    width:510px;
-    color: #666666;
-    font-family:Arial;
-}
-form {
-    margin:0 auto;
-}
- 
-input, textarea {
-    background: none repeat scroll 0 0 #FFFFFF;
-    border: thin solid #D8D7D7;
-    color: #666666;
-    font-size: 11px;
-    margin-top: 5px;
-    padding: 5px;
-    width: 487px;
-	font-family:Arial, Helvetica, sans-serif;
-}
- 
-textarea {
-    height:50px;
-}
- 
-#submit {
-    border: 0 none;
-    color: #666666;
-    cursor: pointer;
-    float: right;
-    font-size: 30px;
-    margin-right: -8px;
-    text-align: right;
+	display: block;
+	margin: 0 auto;
+	width: 510px;
+	color: #666666;
+	font-family: Arial;
 }
 
-h1 {width:70%;
-              height: 100px;
-          float:center;
-          background-color:#90EE90;
-          border: 1px solid #063;} 
+form {
+	margin: 0 auto;
+}
+
+input,textarea {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: thin solid #D8D7D7;
+	color: #666666;
+	font-size: 11px;
+	margin-top: 5px;
+	padding: 5px;
+	width: 487px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+textarea {
+	height: 50px;
+}
+
+#submit {
+	border: 0 none;
+	color: #666666;
+	cursor: pointer;
+	float: right;
+	font-size: 30px;
+	margin-right: -8px;
+	text-align: right;
+}
+
+h1 {
+	width: 70%;
+	height: 100px;
+	float: center;
+	background-color: #90EE90;
+	border: 1px solid #063;
+}
+
+.mobile {
+	display: none;
+}

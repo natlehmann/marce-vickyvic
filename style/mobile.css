@@ -1,5 +1,13 @@
-#pie {
+#pie,
+#menu,
+#textoInterno1,
+#redesSociales,
+#pieInterna {
 	display: none;
+}
+
+.mobile {
+	display: block;
 }
 
 #content {
@@ -17,3 +25,41 @@
 	width: 60%;
 	height: auto;
 }
+
+#cabecera {
+	width: 100%;
+	float: none;
+	clear: both;
+	text-align: center;
+}
+
+#contenido {
+	width: 100%;
+	height: auto;
+	padding-top: 0px;
+}
+
+.mobile #menu {
+	display: block;
+	width: 100%;
+	height: auto;
+	float: none;
+	clear: both;
+	margin-top: 0px;
+	right: 0px;
+	font-family: caviar_dreamsregular,"Trebuchet MS",Arial,Helvetica,sans-serif;
+}
+
+.mobile #menu ul {
+	margin: 0px;
+	margin-top: 20px;
+	padding: 0px;
+}
+
+.mobile #menu li {
+	display: block;
+	border-bottom: 1px solid #fff;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
