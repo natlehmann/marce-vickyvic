@@ -155,3 +155,44 @@ body.notHome {
 	width: 95%;
 	margin-top: 4px;
 }
+
+.scroll {
+    height: auto;
+    overflow: auto;
+    position: relative;
+    width: 100%;
+}
+
+.galeria {
+	width: 100%;
+}
+
+.notHome #contenido .galeria img {
+	height: auto;
+    margin: 0px;
+    overflow: hidden;
+    width: 100%;
+    float: none;
+    clear: both;
+    margin-bottom: 5px;
+}
+
+.tituloFijo #titulo-mobile {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 30;
+	width: 100%;
+}
+
+.tituloFijo #titulo-mobile .titulo {
+	position: fixed;
+	top: 15px;
+	left: 15px;
+}
+
+.tituloFijo #titulo-mobile .close {
+	position: fixed;
+	right: 15px;
+	top: 15px;
+}
