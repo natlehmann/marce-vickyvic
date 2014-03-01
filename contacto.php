@@ -18,12 +18,14 @@ $msjCorreo = "Nombre: $nombre\n E-Mail: $email\n Mensaje:\n $mensaje";
 	media="only screen and (max-width : 568px)" />
 <link rel="stylesheet" href="style/mobile.css" type="text/css"
 	media="only screen and (max-width : 792px) and (orientation : portrait)" />
+<link rel="stylesheet" href="style/mobile-bigger.css" type="text/css"
+	media="only screen and (max-width : 568px) and (min-height : 640px)" />
 <title>VICKY VICTORIA STORE</title>
 
 <script src="js/general.js"></script>
 </head>
 
-<body
+<body class="notHome"
 	onLoad="MM_preloadImages('image/fbOn.jpg','image/pinterestOn.jpg')">
 
 	<div id="content">

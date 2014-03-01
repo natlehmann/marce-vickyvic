@@ -2,7 +2,8 @@
 #menu,
 #textoInterno1,
 #redesSociales,
-#pieInterna {
+#pieInterna,
+.notHome #cabecera {
 	display: none;
 }
 
@@ -58,8 +59,63 @@
 
 .mobile #menu li {
 	display: block;
-	border-bottom: 1px solid #fff;
+	border-bottom: 1px solid #999;
 	padding-top: 8px;
 	padding-bottom: 8px;
+}
+
+body.notHome {
+	background-color: white;
+}
+
+.notHome #content {
+	margin-top: 0px;
+}
+
+#titulo-mobile {
+	color: white;
+	font-size: 1.5em;
+	height: 20px;
+	padding: 15px;
+	background-color: #000000;
+}
+
+#titulo-mobile .titulo {
+	float: left;
+	width: 80%;
+}
+
+#titulo-mobile .close {
+	float: right;
+	width: 19%;
+	text-align: right;
+}
+
+#titulo-mobile .close a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+.notHome #contenido img {
+	height: 250px;
+    margin-left: -50%;
+    overflow: hidden;
+    width: auto;
+}
+
+.notHome #contenido {
+	overflow: hidden;
+}
+
+#textoInterno {
+	float: none;
+	clear: both;
+	width: 100%;
+	height: auto;
+	margin: 0px;
+	position: relative;
+	max-height: 170px;
+    overflow: auto;
 }
 
