@@ -119,3 +119,39 @@ body.notHome {
     overflow: auto;
 }
 
+.textoNosotros {
+	padding: 30px;
+}
+
+.mobile .logos {
+	width: 80%;
+	height: auto;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.mobile .logos .logo {
+	width: 50%;
+	float: left;
+	text-align: left;
+}
+
+.mobile .logos .logo:nth-child(even) {
+	text-align: right;
+}
+
+.mobile .logos .logo:last-child {
+	float: none;
+	clear: both;
+}
+
+.notHome #contenido .mobile .logos .logo img {
+	width: 85%;
+	height: auto;
+	margin: 0px;
+}
+
+.notHome #contenido .mobile .logos .logo:first-child img {
+	width: 95%;
+	margin-top: 4px;
+}
