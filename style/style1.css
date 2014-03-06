@@ -1,8 +1,3 @@
-@charset "utf-8";
-
-@CHARSET "ISO-8859-1";
-
-/*font especial*/
 @font-face {
 	font-family: 'caviar_dreamsregular';
 	src: url('../fonts/CaviarDreams-webfont.eot');
@@ -83,8 +78,6 @@ body {
 }
 
 #menu li {
-	/*margin-left: -40px;
-padding-top: 10px;*/
 	display: inline;
 }
 
@@ -114,7 +107,6 @@ padding-top: 10px;*/
 }
 
 #redesSociales ul {
-	/*padding-top: 40px;*/
 	
 }
 
@@ -160,12 +152,6 @@ padding-top: 10px;*/
 }
 
 #pie {
-	/*clear:both;
-width:1025px;
-height:50px;
-background-color:#000000;
-color:#FFF;
-text-align:center;*/
 	background-color: #000000;
 	bottom: 0;
 	clear: both;
@@ -206,51 +192,7 @@ text-align:center;*/
 	color: #d3b85f;
 }
 
-/*--------------------------------formulario------------------------
-label {
-    display:block;
-    margin-top:10px;
-}
-.formulario {
-    display:block;
-    margin:0 auto;
-    width:510px;
-    color: #666666;
-    font-family:Arial;
-}
-form {
-   /* margin: -11% auto 0 15px;
-    width: 360px;
-}
- 
-input, textarea {
-    background: none repeat scroll 0 0 #FFFFFF;
-    border: thin solid #d8d7d7;
-    color: #666666;
-    font-size: 10px;
-    margin-top: 5px;
-    padding: 5px;
-    width: 487px;
-}
- 
-textarea {
-    height:50px;
-}
- 
-#submit {
-    border: 0 none;
-    color: #666666;
-    cursor: pointer;
-    float: right;
-    font-size: 30px;
-    margin-right: -8px;
-    text-align: right;
-}
 
-#submit:hover{
-    color: #d3b85f;
-
-}
 
 /*--------------------------------------galeria--------------------------------------*/
 .scroll {
@@ -262,10 +204,6 @@ textarea {
 }
 
 .galeria {
-	/*float: left;
-    overflow: auto;
-    position: relative;
-	height: 395px;*/
 	width: 6202px;
 }
 
@@ -275,15 +213,15 @@ textarea {
 	margin-right: 5px;
 }
 
-@
--moz-document url-prefix () { .scroll { height:354px;
-	overflow-x: scroll;
-	overflow-y: hidden;
-	position: relative;
-	width: 1025px;
+@-moz-document url-prefix () { 
+	.scroll { height:354px;
+		overflow-x: scroll;
+		overflow-y: hidden;
+		position: relative;
+		width: 1025px;
+	}
 }
 
-}
 #slideShowImages { /* The following CSS rules are optional. */
 	
 }
